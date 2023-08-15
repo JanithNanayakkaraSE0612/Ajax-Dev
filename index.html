@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Ajax</title>
     <script src="jquery-3.7.0.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>Animal World</h1>
     <p><h2>Cats</h2></p>
-    <img src="cat.jpg" alt="">
+    <img src="cat.jpg" alt="cats">
     <div><p>Despite the fact that cats are the most popular pet in the world, our feline friends get a lot of bad press. </p></div>
+    <button id="button1">More Information</button>
+    <div id="div1"></div>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $.ajax('moreInfo.html');
+            });
+        });
+    </script>
 </body>
 </html>
