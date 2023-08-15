@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <script src="jquery-3.7.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <img src="cat.jpg" alt="cats">
-    <div><p>Despite the fact that cats are the most popular pet in the world, our feline friends get a lot of bad press. </p></div>
+    <h1>Animal</h1>
+    <div id="div1"></div>
+    <script>
+        $(document).ready(function(){
+            $('#div1').load('moreinfo.html');
+        });
+    </script>
 </body>
 </html>
