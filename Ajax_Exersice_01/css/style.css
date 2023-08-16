@@ -18,3 +18,7 @@ a{
 div .loading{
     text-align: center;
 }
+.active{
+    color: red;
+    border-bottom: 2px solid red;
+}
