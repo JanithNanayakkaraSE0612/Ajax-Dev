@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Method Loading</title>
+   
+</head>
+<body>
+    <h2>Load Method With Ajax</h2>
+    <button>Load</button>
+    <div class="content">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+     	$(document).ready(function(){
+			$('button').click(function(){
+				$('.content').load('content.html p');
+			});
+		});
+
+    </script>
+</body>
+</html>
