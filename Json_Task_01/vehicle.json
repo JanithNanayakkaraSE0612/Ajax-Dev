@@ -1,0 +1,10 @@
+{
+    "brand":"Honda",
+    "model":"civic",
+    "year": 2020,
+    "engine":{"key":"V-6","capacity":"3400cc"},
+    "features":["Alloy Wheels","Sunroof","Navigation"],
+    "colour":"white",
+    "price":70000,
+    "sold":true
+}
